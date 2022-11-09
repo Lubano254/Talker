@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="card mb-3 mt-lg-5 shadow p-3 bg-body rounded">
+          <div class="row g-0">
+            <div class="col-md-6 shadow p-3 bg-body rounded">
+              <img src="../static/images/lubra.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-6 shadow bg-body rounded">
+              <div class="card-body bg-dark shadow p-3 rounded">
+                <h5 class="card-title text-light">Welcome to Ball Kenya</h5>
+                <p class="card-text text-light">Ball kenya is a blog app for all basketball players to share their views on the game across the country. We are trying to get to all corners of the country to have views and thoughts of players about the game.</p>
+                <a href="{{ url_for('views.about') }}" class="btn btn-primary">About us</a>
+              </div>
+              <div class="card-body bg-dark shadow p-3 rounded">
+                <h5 class="card-title text-light">Welcome to Ball Kenya</h5>
+                <p class="card-text text-light">Ball kenya is a blog app for all basketball players to share their views on the game across the country. We are trying to get to all corners of the country to have views and thoughts of players about the game.</p>
+                <a href="{{ url_for('views.contact') }}" class="btn btn-primary">Contact Us</a>
+              </div>
+              <div class="card-body bg-dark shadow p-3 rounded">
+                <h5 class="card-title text-light">Welcome to Ball Kenya</h5>
+                <p class="card-text text-light">Ball kenya is a blog app for all basketball players to share their views on the game across the country. We are trying to get to all corners of the country to have views and thoughts of players about the game.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+{% endblock content %}
